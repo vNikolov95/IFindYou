@@ -65,3 +65,22 @@
 #main-content .glyphicon {
 	font-size: 130px;
 }
+.icon p {
+	padding: 0 70px;
+}
+footer {
+	margin-top: 50px;
+	text-align: center;
+	padding: 30px;
+	color: #fff;
+	background-color: #555;
+	box-shadow: 0px 0px 10px #000;
+}
+footer a {
+	color: #00bbff;
+
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
