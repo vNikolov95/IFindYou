@@ -1,0 +1,47 @@
+#big-image {
+	margin: 0;
+	background: url('images/image.jpg') no-repeat;
+	background-size: cover;
+	height: 450px;
+}
+@media (max-width: 768px) {
+	#big-image #phone-container {
+		text-align: center;
+	}
+}
+#big-image #phone {
+	width: 270px;
+}
+#big-image > #app-description-container {
+	text-align: right;
+}
+#big-image #app-description {
+	width: 350px;
+	height: 350px;
+	background: #fff;
+	display: inline-block;
+	margin-top: 60px;
+	margin-right: 50px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 25px #000;
+	text-align: center;
+}
+.row {
+	margin: 0;
+}
+#logo img {
+	margin-top: 10px;
+	box-shadow: 5px 5px 25px #000;
+}
+.navbar {
+	margin-bottom: 0;
+}
+#main-content {
+	text-align: center;
+	padding-top: 140px;
+	background: linear-gradient(to bottom, #eee 0%,#ffffff 54%);
+	border-top: 1px solid #fff;
+}
+#main-content .glyphicon {
+	font-size: 130px;
+}
