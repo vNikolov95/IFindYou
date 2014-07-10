@@ -1,3 +1,7 @@
+#main {
+	margin-top: 50px;
+}
+
 #big-image {
 	margin: 0;
 	background: url('images/image.jpg') no-repeat;
@@ -7,6 +11,10 @@
 @media (max-width: 768px) {
 	#big-image #phone-container {
 		text-align: center;
+	}
+	#app-link-mobile {
+		margin-top: -50px;
+		margin-bottom: 50px;
 	}
 }
 #big-image #phone {
@@ -34,7 +42,19 @@
 	box-shadow: 5px 5px 25px #000;
 }
 .navbar {
-	margin-bottom: 0;
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0px 0px 10px #000;
+}
+.navbar a {
+	font-family: 'Oleo Script', cursive;
+	color: #555;
+	font-size: 30px;
+	line-height: 50px;
+	text-decoration: none;
+}
+.navbar a:hover {
+	color: #000;
 }
 #main-content {
 	text-align: center;
